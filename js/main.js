@@ -45,8 +45,18 @@ $(function() {
 // slider
 
 $('.slider_box').slick({
+    autoplay:true,
+    autoplaySpeed:2000,
     dots:true,
     arrows:false,
     slidesToShow:3,
     variableWidth: true,
 });       
+
+
+$('.carousel').slick({
+    autoplay:true,
+    autoplaySpeed:2000,
+    slidesToShow:3,
+    variableWidth: true,
+}); 

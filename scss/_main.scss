@@ -1,13 +1,17 @@
 
 /*------------------- HEADER -------------------*/
+html {
+	background-color: navajowhite;
+}
+
 body {
 	font-family: 'Roboto';
 }
 
 .wrapper {
 	background-color: $color-greyLight;
-// max-width: 1400px;
-	width: 1400px;
+	max-width: 1400px;
+	// width: 1400px;
 	margin: 0 auto;	
 }
 
@@ -136,7 +140,7 @@ body {
 	width:102.3932%;
 
 	display: flex;
-	flex-flow: row nowrap;
+	flex-flow: row wrap;
 	justify-content: space-between;
 
 	.box-input:nth-of-type(1) {
@@ -191,13 +195,13 @@ body {
 	h1 {
 		font-size: 3em;
 		font-weight: bold;
-		color: $color-greyDark;
+		color: $color-grey;
 		margin: 145px 0 31px;
 	}
 
 	h1+p {
 		font-size: 1em;;
-		color: $color-greyDark;
+		color: $color-grey;
 		margin-bottom: 48px;
 	}
 }
@@ -220,7 +224,7 @@ body {
 		margin-top: 50px;
 	}
 	.slick-slide {
-		width:273px;
+		width: 273px;
 		margin: 0 14px 0 14px;
 		border-radius:5px;
 	}
@@ -228,5 +232,126 @@ body {
 		text-align:left;
 		margin: 0;
 		padding: 0;
+	}
+}
+
+/* section galery City */
+.galleryCity {
+	height: 658px;
+	margin-bottom: 20px;
+	padding-top: 1px;
+	background-color: $color-white;
+
+	.container {
+	margin:85px 8.2143% 0;
+	}
+
+	.galleryBox {
+		margin: 0 -1.1982% 0;
+
+		&:after{
+			content: " ";
+			display: table;
+			clear: both;
+		}
+	}
+
+	.column {
+		float:left;
+		width:calc(33.33% - 28px);
+		margin: 0 1.16861% 0;
+
+		figure {
+			margin-bottom: 24px;
+			
+			img{
+				max-width:100%;
+			}
+		}
+
+		h2{
+			font-family: 'Roboto';
+			font-size: 1.875em;
+			color: $color-greyDark;
+			font-weight: normal;
+			margin-bottom: 16px;
+		}
+
+		p {
+			font-size: 1em;
+			color: $color-grey;
+			margin-bottom: 35px;
+		}
+
+		.ratings {
+			display:flex;
+
+			.fas{
+				color: #fa9d4c;
+			}
+
+			span:last-of-type {
+					margin-left: auto;
+					color:$color-grey;
+			}	
+		}
+	}
+}
+
+/* section active leisure */
+.activeLeisure {
+	height: 432px;
+	padding-top:1px;
+	margin-bottom: 20px;
+	background-color: $color-white;
+
+	.container {
+		height:260px;
+		width: 85.5714%;
+		margin: 76px auto 0;
+	}
+
+	.carousel {
+		color: red;
+		margin: 0 14px;
+		}
+
+	.slide {
+		position:relative;
+		margin: 0 14px;
+		font-size:0.875em;
+		color: $color-white;
+
+		.visits{
+			position: absolute;
+			top:0;
+			right:0;
+			padding: 20px; 
+			text-align: right;
+			color: #fa9d4c;
+
+			span:last-of-type{
+				display: block;
+				margin-top:5px;
+				color: $color-white;
+			}
+		}
+
+		p {
+			position: absolute;
+			bottom: 70px;
+			padding-left:22px
+		}
+
+		h2{
+			position: absolute;
+			bottom: 15px;
+			padding-left:22px;
+			font-size: 2.25em;
+		}
+
+		figure img{
+			max-width: 100%;
+		}
 	}
 }
