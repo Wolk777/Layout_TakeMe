@@ -1,0 +1,12 @@
+.button {
+  font-family: "Roboto";
+  background-color: $color-cyan;
+  color: $color-white;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 200px;
+}

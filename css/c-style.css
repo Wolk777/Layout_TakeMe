@@ -128,23 +128,27 @@ body {
 
 /*------------------- MAIN -------------------*/
 /* section dreamVacation */
-.dreamVacation_1, .dreamVacation_2 {
+.dreamVacation_1,
+.dreamVacation_2 {
   background: url(../images/hero_bg.jpeg) 50% 50% no-repeat;
   height: 685px;
   margin-bottom: 20px;
 }
-.dreamVacation_1 .container, .dreamVacation_2 .container {
+.dreamVacation_1 .container,
+.dreamVacation_2 .container {
   margin: 0 8.2143% 0;
   padding-top: 1px;
 }
-.dreamVacation_1 h1, .dreamVacation_2 h1 {
+.dreamVacation_1 h1,
+.dreamVacation_2 h1 {
   font-weight: bold;
   font-size: 3em;
   color: #ffffff;
   margin: 220px 0 33px;
   text-align: center;
 }
-.dreamVacation_1 h1 + p, .dreamVacation_2 h1 + p {
+.dreamVacation_1 h1 + p,
+.dreamVacation_2 h1 + p {
   color: #ffffff;
   text-align: center;
   margin-bottom: 78px;
@@ -187,7 +191,8 @@ body {
   cursor: pointer;
 }
 
-.dreamVacation_1 .findLocation, .dreamVacation_2 .findLocation {
+.dreamVacation_1 .findLocation,
+.dreamVacation_2 .findLocation {
   height: 50px;
   margin: 0 -14px 0;
   width: 102.3932%;
@@ -195,19 +200,24 @@ body {
   flex-flow: row wrap;
   justify-content: space-between;
 }
-.dreamVacation_1 .findLocation .box-input:nth-of-type(1), .dreamVacation_2 .findLocation .box-input:nth-of-type(1) {
+.dreamVacation_1 .findLocation .box-input:nth-of-type(1),
+.dreamVacation_2 .findLocation .box-input:nth-of-type(1) {
   flex: 4;
 }
-.dreamVacation_1 .findLocation .box-input:nth-of-type(2), .dreamVacation_2 .findLocation .box-input:nth-of-type(2) {
+.dreamVacation_1 .findLocation .box-input:nth-of-type(2),
+.dreamVacation_2 .findLocation .box-input:nth-of-type(2) {
   flex: 3;
 }
-.dreamVacation_1 .findLocation .box-input:nth-of-type(3), .dreamVacation_2 .findLocation .box-input:nth-of-type(3) {
+.dreamVacation_1 .findLocation .box-input:nth-of-type(3),
+.dreamVacation_2 .findLocation .box-input:nth-of-type(3) {
   flex: 3;
 }
-.dreamVacation_1 .findLocation .box-input:nth-of-type(4), .dreamVacation_2 .findLocation .box-input:nth-of-type(4) {
+.dreamVacation_1 .findLocation .box-input:nth-of-type(4),
+.dreamVacation_2 .findLocation .box-input:nth-of-type(4) {
   flex: 2;
 }
-.dreamVacation_1 .findLocation .input, .dreamVacation_2 .findLocation .input {
+.dreamVacation_1 .findLocation .input,
+.dreamVacation_2 .findLocation .input {
   margin: 0 14px 0;
   width: calc(100% - 28px);
 }
@@ -378,14 +388,12 @@ body {
   max-width: 100%;
 }
 
-.dreamVacation_1 .dropdownList, .dreamVacation_2 .dropdownList {
+.dreamVacation_1 .dropdownList,
+.dreamVacation_2 .dropdownList {
   /* Size and position */
   position: relative;
   outline: none;
   pointer-events: none;
-}
-.dreamVacation_1 .dropdownList .input, .dreamVacation_2 .dropdownList .input {
-  line-height: 47px;
 }
 
 .dropdownList:after {
@@ -707,4 +715,53 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/*# sourceMappingURL=style.css.map */
+.section {
+  padding: 0 115px;
+  background-color: #f6f6f6;
+}
+
+.s-info__subscribe {
+  flex: 0 1 600px;
+  text-align: left;
+}
+
+.s-title {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 48px;
+  color: #868686;
+}
+
+.s-text {
+  font-family: "Roboto";
+  font-weight: normal;
+  font-size: 16px;
+  color: #868686;
+}
+
+.button {
+  font-family: "Roboto";
+  background-color: #3ec6ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 200px;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.input {
+  border: none;
+  border-radius: 3px;
+  padding: 15px 30px;
+}
+
+/*# sourceMappingURL=c-style.css.map */
