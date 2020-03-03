@@ -19,13 +19,15 @@
   display: flex;
   height: 670px;
   padding-right: 0;
+  padding-left: 0;
   justify-content: space-between;
 }
 
 .container-form__size {
   display: flex;
   flex-direction: column;
-  flex: 0 1 600px;
+  flex: 0 1 700px;
+  padding-left: 115px;
   margin-right: auto;
   justify-content: center;
 }
@@ -41,9 +43,8 @@
 }
 
 .form-item_size {
-  flex: 0 1 273px;
-  margin-right: 27px;
-  margin-bottom: 17px;
+  flex: 1;
+  margin: 0 14px 17px;
 }
 
 .form-item_size:last-of-type {
@@ -61,6 +62,20 @@
 .button_position_right {
   align-self: flex-start;
   margin-left: auto;
+}
+
+.form-wrapperItem {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.container-image__size {
+  flex: 0 1 700px;
+  padding-left: 115px;
+}
+
+.container-image__image {
+  width: 100%;
 }
 
 /*# sourceMappingURL=p-style.css.map */
